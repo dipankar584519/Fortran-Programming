@@ -1,1 +1,2 @@
-Repositories for Computation Physics homework and assignments
+Repositories for Fortran 90 programming
+for Computation Physics
