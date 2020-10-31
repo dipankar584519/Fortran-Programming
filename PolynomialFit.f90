@@ -14,7 +14,7 @@
         INTEGER::i,j,k,m,m1,n
         REAL,ALLOCATABLE,DIMENSION(:)::x,y,u,v,c,s
         REAL,ALLOCATABLE,DIMENSION(:,:)::B,B_inv,A,Z,ZT
-        OPEN(UNIT=11,FILE="xy.txt")
+        OPEN(UNIT=11,FILE="PolynomialFit.inp")
         OPEN(UNIT=19,FILE="fit.out")
         WRITE(*,*)"GIVE THE DEGREE OF THE POLYNOIAL:"
         READ(*,*)m1     !oredr of the polynomial
