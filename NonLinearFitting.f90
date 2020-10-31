@@ -13,7 +13,7 @@
         REAL,ALLOCATABLE,DIMENSION(:)::x,y,dy,u,v,g
         REAL,ALLOCATABLE,DIMENSION(:,:)::ZTZ,ZTZ_inv,s,A,Z,ZT
 !Input file given in lab will be saved as "Input_NonLinearFit.txt" to avoid any modification after lab class
-        OPEN(UNIT=11,FILE="Input_NonLinearFit.txt")
+        OPEN(UNIT=11,FILE="NonLinearFitting.inp")
         OPEN(UNIT=19,FILE="Output_NonLinearFit.txt")
         
         WRITE(*,*)"GIVE NUMBER OF POINTS:"
